@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Bitter Rose';
+    src: url('BitterRoseDEMO-Regular.woff2') format('woff2'),
+        url('BitterRoseDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

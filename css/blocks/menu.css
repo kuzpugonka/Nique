@@ -1,0 +1,35 @@
+.menu {
+  padding-top: 60px;
+}
+.menu-nav {
+  display: flex;
+  /* display: none; */
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 32px;
+}
+.menu-nav__link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: clamp(0.75rem, 0.596rem + 0.77vw, 1rem);
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+.menu-nav__link.active {
+  color: var(--text-primary);
+}
+.menu-categoryes {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+  padding: 80px 0 96px;
+}
+
+
+@media (max-width: 660px) {
+  .menu-nav {
+    gap: 16px;
+    padding: 24px 6px;
+  }
+}

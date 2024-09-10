@@ -1,0 +1,15 @@
+/* .category {} */
+.category__title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  /* font-size: 64px; */
+  font-size: clamp(3rem, 2.385rem + 3.08vw, 4rem);
+  line-height: 0.7;
+  color: var(--text-primary);
+  margin-bottom: 32px;
+}
+.category__product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

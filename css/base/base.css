@@ -1,23 +1,40 @@
 :root {
-	--text-default: #fff;
-	--text-muted: rgba(255, 255, 255, 0.8);
-	--text-primary: #face8d;
-	--text-inverse: #081212;
-	--background-default: #050505;
-	--background-primary: #f8d49e;
-	--border-default: rgba(255, 255, 255, 0.1);
-	--icon-default: #fff;
-	--icon-primary: #f8d49e;
-	--icon-inverse: #081212;
+  --text-default: #fff;
+  --text-muted: rgba(255, 255, 255, 0.8);
+  --text-primary: #face8d;
+  --text-inverse: #081212;
+  --background-default: #050505;
+  --background-primary: #f8d49e;
+  --border-default: rgba(255, 255, 255, 0.1);
+  --icon-default: #fff;
+  --icon-primary: #f8d49e;
+  --icon-inverse: #081212;
 
-	/* Fonts */
-	--font-family: 'Chillax', sans-serif;
-	--second-family: 'Bitter Rose', sans-serif;
-	--third-family: 'Cabinet Grotesk', sans-serif;
+  /* Fonts */
+  --font-family: "Chillax", sans-serif;
+  --second-family: "Bitter Rose", sans-serif;
+  --third-family: "Cabinet Grotesk", sans-serif;
 }
 
 body {
-	background: var(--background-default);
-	font-family: var(--font-family);
-	color: var(--text-default);
+  background: var(--background-default);
+  font-family: var(--font-family);
+  color: var(--text-default);
+}
+
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 96px;
+}
+.hidden {
+  /* overflow: hidden;
+  opacity: 0; */
+  display: none;
+}
+
+@media (max-width: 660px) {
+  .container {
+    padding: 0 30px;
+  }
 }

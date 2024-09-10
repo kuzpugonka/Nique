@@ -1,0 +1,111 @@
+.product {
+  display: flex;
+  gap: 24px;
+  padding: 16px 24px 16px 16px;
+  border: 1px solid transparent;
+}
+.product.day {
+  position: relative;
+  border-color: var(--text-primary);
+  border-radius: 16px;
+}
+.product__img {
+  max-width: 90px;
+  height: 72px;
+}
+.product__img img {
+  border-radius: 10px;
+  background: var(--text-default);
+  width: 100%;
+  height: auto;
+}
+.product__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+.product__info-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  /* font-size: 20px; */
+  font-size: clamp(0.875rem, 0.644rem + 1.15vw, 1.25rem);
+  line-height: 1.6;
+  color: var(--text-default);
+}
+.product__title img {
+  padding-left: 16px;
+}
+.product__price {
+  display: flex;
+  gap: 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  /* font-size: 20px; */
+  font-size: clamp(0.875rem, 0.644rem + 1.15vw, 1.25rem);
+  color: var(--text-default);
+  line-height: 1.6;
+}
+.product__price-old {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.product__price-new {
+  /* min-width: 52px; */
+}
+.product__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  /* font-size: 16px; */
+  font-size: clamp(0.75rem, 0.596rem + 0.77vw, 1rem);
+  line-height: 1.6;
+  color: var(--text-default);
+  opacity: 0.6;
+}
+.product-marker {
+  position: absolute;
+  top: -14px;
+  right: 24px;
+
+  background: var(--background-primary);
+  border-radius: 6px;
+  padding: 8px 12px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  /* font-size: 14px; */
+  font-size: clamp(0.75rem, 0.673rem + 0.38vw, 0.875rem);
+  line-height: 1.4;
+  color: var(--text-inverse);
+}
+
+@media (max-width: 660px) {
+  .product {
+    gap: 12px;
+    padding: 12px 14px 8px 8px;
+  }
+  .product-marker {
+    top: -12px;
+    right: 14px;
+    padding: 2px 12px;
+  }
+}
+
+@media (max-width: 430px) {
+  .product {
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 18px;
+  }
+  .product__img {
+    max-width: 80%;
+    margin: 0 auto;
+    height: auto;
+  }
+}

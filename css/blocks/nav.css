@@ -12,15 +12,6 @@
   width: 520px;
   height: 68px;
 }
-
-@media (max-width: 660px) {
-  .nav{
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    border-radius: 30px;
-  }
-}
 .nav-link {
   padding: 16px;
   font-family: var(--font-family);
@@ -40,8 +31,19 @@
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.07em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--text-default);
+}
+
+
+@media (max-width: 660px) {
+  .nav{
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+  }
 }

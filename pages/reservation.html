@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nique restaurant. Reservation</title>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <main class="reservation">
+      <header class="reservation__header header">
+        <a class="header__logo" href="../index.html"> nique. </a>
+        <div class="header__content">
+          <h1 class="header__title">
+            <span class="header__title_small">Book a table</span>
+            Reservation
+          </h1>
+        </div>
+        <div class="reservation-nav nav">
+          <button class="nav-link">
+            <img src="./../img/icons/clock.svg" alt="Time table" />
+          </button>
+          <a class="nav-link active" href="./menu.html">Menu</a>
+          <a class="nav-link" href="#">Restaurant</a>
+          <a class="nav-link" href="#">Classes</a>
+          <a class="nav-link primary" href="./reservation.html">Book a Table</a>
+        </div>
+      </header>
+
+      <div class="reservation__content">
+        <div class="container reservation__container">
+          <h2 class="reservation__title">Book a table</h2>
+          <p class="reservation__text">
+            Our dining atmosphere is casual and comfortable. To reflect this
+            environment, we maintain a formal dress.
+          </p>
+
+          <form class="reservation__form form">
+            <legend class="form__legend form__legend_long">
+              Name
+              <input
+                class="form__input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+              />
+            </legend>
+            <legend class="form__legend form__legend_long">
+              Number of guests
+              <input
+                class="form__input"
+                type="number"
+                name="guest"
+                id="guest"
+                placeholder="2"
+              />
+            </legend>
+              <legend class="form__legend">
+                Date
+                <input
+                  class="form__input"
+                  type="date"
+                  name="date"
+                  id="date"
+                  placeholder="19.08.22"
+                />
+              </legend>
+              <legend class="form__legend">
+                Time
+                <input
+                  class="form__input"
+                  type="time"
+                  name="time"
+                  id="time"
+                  placeholder="6:00pm"
+                />
+              </legend>
+            <button class="form__btn" type="submit">Book a table</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

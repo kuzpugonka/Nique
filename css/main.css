@@ -8,10 +8,11 @@
 @import './base/base.css';
 
 /* Блоки  */
+@import './blocks/home.css';
 @import './blocks/header.css';
 @import './blocks/nav.css';
-@import './blocks/menu.css';
 @import './blocks/category.css';
 @import './blocks/product.css';
 @import './blocks/footer.css';
+@import './blocks/menu.css';
 

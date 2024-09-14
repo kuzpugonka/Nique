@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 500px) {
   .product {
     flex-direction: column;
     gap: 14px;

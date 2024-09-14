@@ -33,8 +33,28 @@ body {
   display: none;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 1630px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1490px) {
+  /*  */
+}
+@media (max-width: 1200px) {
   .container {
     padding: 0 30px;
   }
+}
+@media (max-width: 1080px) {
+  /*  */
+}
+@media (max-width: 840px) {
+  /*  */
+}
+@media (max-width: 660px) {
+  /*  */
+}
+@media (max-width: 500px) {
+  /*  */
 }

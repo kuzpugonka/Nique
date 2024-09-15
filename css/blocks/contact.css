@@ -1,25 +1,25 @@
-.reservation {
+.contact {
   display: flex;
   justify-content: center;
   height: 100vh;
 }
-.reservation__header {
+.contact__header {
   width: 50%;
   max-width: 840px;
   background-image: image-set(
-    url(./../../img/reservation/reservation-bg.png) 1x,
-    url(./../../img/reservation/reservation-bg@2x.png) 2x
+    url(./../../img/contact/contact-bg.png) 1x,
+    url(./../../img/contact/contact-bg@2x.png) 2x
   );
 }
-.reservation__content {
+.contact__content {
   width: 50%;
   max-width: 840px;
   overflow-y: scroll;
 }
-.reservation__container {
+.contact__container {
   padding: 96px 140px 62px;
 }
-.reservation__title {
+.contact__title {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 40px;
@@ -27,7 +27,7 @@
   color: var(--text-default);
   margin-bottom: 16px;
 }
-.reservation__text {
+.contact__text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
@@ -37,17 +37,17 @@
 }
 
 @media (max-width: 1630px) {
-  .reservation__container {
+  .contact__container {
     padding: 80px;
   }
 }
 @media (max-width: 1300px) {
-  .reservation {
+  .contact {
     flex-direction: column;
     height: auto;
   }
-  .reservation__header,
-  .reservation__content {
+  .contact__header,
+  .contact__content {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;

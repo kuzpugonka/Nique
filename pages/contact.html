@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nique restaurant. Contact</title>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <main class="contact">
+      <header class="contact__header header">
+        <a class="header__logo" href="../index.html"> nique. </a>
+        <div class="header__content">
+          <h1 class="header__title">
+            <span class="header__title_small">Contact</span>
+            Get in Touch
+          </h1>
+        </div>
+        <div class="contact-nav nav">
+          <button class="nav-link">
+            <img src="./../img/icons/clock.svg" alt="Time table" />
+          </button>
+          <a class="nav-link active" href="./menu.html">Menu</a>
+          <a class="nav-link" href="#">Restaurant</a>
+          <a class="nav-link" href="#">Classes</a>
+          <a class="nav-link primary" href="./reservation.html">Book a Table</a>
+        </div>
+      </header>
+
+      <div class="contact__content">
+        <div class="container contact__container">
+          <h2 class="contact__title hidden">Contact</h2>
+          <p class="contact__text">
+            Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Arcu non odio euismod lacinia. Tortor aliquam nulla facilisi cras fermentum odio eu.
+          </p>
+
+          <form class="contact__form form">
+            <legend class="form__legend form__legend_long">
+              Name
+              <input
+                class="form__input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </legend>
+            <legend class="form__legend form__legend_long">
+              Email
+              <input
+                class="form__input"
+                type="number"
+                name="guest"
+                id="guest"
+                placeholder="Your email address"
+              />
+            </legend>
+            <legend class="form__legend form__legend_long">
+              Message
+              <textarea 
+                class="form__textarea" 
+                name="message" 
+                id="message" 
+                cols="30" 
+                placeholder="Your message"></textarea>
+            </legend>
+            <button class="form__btn" type="submit">Book a table</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
